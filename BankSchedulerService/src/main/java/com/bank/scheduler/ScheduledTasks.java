@@ -31,7 +31,8 @@ public class ScheduledTasks {
     public void reportCurrentTime() throws KeyManagementException, NoSuchAlgorithmException, URISyntaxException, IOException {
         log.info("The time is now {}", dateFormat.format(new Date()));
         ConnectionFactory factory = new ConnectionFactory();
-		factory.setUri("amqp://tcltuzup:lvZGCmC2XfugGMaRKnUe_s5N-wa7FM64@white-swan.rmq.cloudamqp.com/tcltuzup");
+		//factory.setUri("amqp://tcltuzup:lvZGCmC2XfugGMaRKnUe_s5N-wa7FM64@white-swan.rmq.cloudamqp.com/tcltuzup");
+		factory.setUri("amqp://ragenmvd:hMOodtGGRlPGlikVC9oB9GLaL-ZLqIdK@white-swan.rmq.cloudamqp.com/ragenmvd");
 		/*factory.setPassword("lvZGCmC2XfugGMaRKnUe_s5N-wa7FM64");
 		factory.setUsername("tcltuzup:tcltuzup");
 		factory.setPort(8883);
